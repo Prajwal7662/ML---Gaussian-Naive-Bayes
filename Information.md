@@ -1,4 +1,5 @@
 Gaussian Naive Bayes in Machine Learning
+
 📌 Introduction
 
 Gaussian Naive Bayes is a probabilistic classification algorithm based on Bayes' Theorem with the assumption that features follow a Gaussian (normal) distribution. It is simple, efficient, and widely used for text classification, spam detection, sentiment analysis, and medical diagnosis.
@@ -42,3 +43,13 @@ Assumes independence of features, which may not hold true in real-world datasets
 Struggles when features are highly correlated.
 
 Requires normally distributed data for Gaussian NB.
+
+📂 Project Structure
+Gaussian-Naive-Bayes/
+│── data/            # Dataset (if any)
+│── gaussian_nb.py   # Main implementation
+│── README.md        # Documentation
+
+✅ Conclusion
+
+Gaussian Naive Bayes is a fast, simple, and powerful algorithm for classification tasks, especially when dealing with normally distributed continuous features. Despite its strong assumptions, it performs surprisingly well in many real-world scenarios
